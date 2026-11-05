@@ -13,7 +13,8 @@ public class sampleRestController {
     private Student myStudent;   
     private Student anotherStudent;
     
-    public sampleRestController(@Qualifier("elementaryStudent") Student student){
+    public sampleRestController
+            (@Qualifier("elementaryStudent") Student student){
         myStudent = student;        
     }
 
